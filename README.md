@@ -81,6 +81,7 @@ Setelah container berjalan, buka browser dan akses:
 Untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
 
 Anda bisa login ke dashboard Metabase menggunakan:
+
 ```
 root@mail.com
 root123
@@ -107,7 +108,6 @@ root123
 ## 🧠 Machine Learning Modeling
 
 Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa memiliki kemungkinan untuk mengalami dropout dari institusi pendidikan Jaya Jaya Institut. Proses pemodelan difokuskan pada identifikasi pola-pola dalam data akademik, sosial, dan ekonomi yang dapat mengindikasikan risiko dropout. Dengan model ini, pihak akademik dapat mengambil langkah preventif secara proaktif untuk meningkatkan retensi mahasiswa.
-
 
 ### ✅ `Pendekatan yang Digunakan:`
 
@@ -138,26 +138,26 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa
 
   Metrik ini memberikan gambaran menyeluruh tentang performa model dalam memprediksi status mahasiswa (dropout atau graduate).
 
-
 ### 📊 `Kinerja Model:`
 
-- 📉 Evaluasi Model XGBoost:
+📉 Evaluasi Model XGBoost:
 
-  - Accuracy = 0.90, Precision = 0.90, Recall = 0.90, F1 Score = 0.89
-  - Confusion Matrix:
+- Accuracy = 0.90, Precision = 0.90, Recall = 0.90, F1 Score = 0.89
+- Confusion Matrix:
 
-    ```python
-    [[291, 64],
-    [ 31, 522]]
-    ```
+  ```python
+  [[291, 64],
+  [ 31, 522]]
+  ```
 
 📌 Interpretasi:
 
-Model menunjukkan performa yang kuat dan seimbang dalam mengklasifikasikan mahasiswa yang dropout maupun yang lulus (graduate).
-- Dari `322` mahasiswa yang benar-benar dropout, model berhasil mendeteksi 291 di antaranya (recall tinggi terhadap kelas dropout).
-- Sementara dari `586` mahasiswa yang lulus, model berhasil mengklasifikasikan 522 dengan benar.
+     Model menunjukkan performa yang kuat dan seimbang dalam mengklasifikasikan mahasiswa yang dropout maupun yang lulus (graduate).
 
-Hal ini menunjukkan bahwa model memiliki kemampuan deteksi yang baik terhadap kasus dropout, yang sangat penting untuk intervensi dini oleh pihak institusi.
+     - Dari `322` mahasiswa yang benar-benar dropout, model berhasil mendeteksi 291 di antaranya (recall tinggi terhadap kelas dropout).
+     - Sementara dari `586` mahasiswa yang lulus, model berhasil mengklasifikasikan 522 dengan benar.
+
+     Hal ini menunjukkan bahwa model memiliki kemampuan deteksi yang baik terhadap kasus dropout, yang sangat penting untuk intervensi dini oleh pihak institusi.
 
 ### Langkah-Langkah Menjalankan Model
 
@@ -192,5 +192,3 @@ Setelah proses pelatihan (training) model selesai, model tersebut disimpan/di-ex
      - Memuat model prediksi yang sudah disimpan.
      - Melakukan prediksi apakah mahasiswa tersebut berisiko dropout atau tidak.
      - Menampilkan atau menyimpan hasil prediksi.
-
-
