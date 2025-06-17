@@ -86,7 +86,7 @@ Anda bisa login ke dashboard Metabase menggunakan:
 
 ```
 root@mail.com
-root123
+root@123
 ```
 
 ### Setup supabase
