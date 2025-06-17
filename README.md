@@ -77,9 +77,9 @@ docker run -d -p 3000:3000 --name metabase \
 ```
 
 Setelah container berjalan, buka browser dan akses:
-
+```
 🌐 http://localhost:3000/setup
-
+```
 Untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
 
 Anda bisa login ke dashboard Metabase menggunakan:
