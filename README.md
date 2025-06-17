@@ -140,24 +140,24 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa
 
 ### 📊 `Kinerja Model:`
 
-📉 Evaluasi Model XGBoost:
+- 📉 Evaluasi Model XGBoost:
 
-- Accuracy = 0.90, Precision = 0.90, Recall = 0.90, F1 Score = 0.89
-- Confusion Matrix:
+  - Accuracy = 0.90, Precision = 0.90, Recall = 0.90, F1 Score = 0.89
+  - Confusion Matrix:
 
-  ```python
-  [[291, 64],
-  [ 31, 522]]
-  ```
+    ```python
+    [[291, 64],
+    [ 31, 522]]
+    ```
 
-📌 Interpretasi:
+- 📌 Interpretasi:
 
-     Model menunjukkan performa yang kuat dan seimbang dalam mengklasifikasikan mahasiswa yang dropout maupun yang lulus (graduate).
+  Model menunjukkan performa yang kuat dan seimbang dalam mengklasifikasikan mahasiswa yang dropout maupun yang lulus (graduate).
 
-     - Dari `322` mahasiswa yang benar-benar dropout, model berhasil mendeteksi 291 di antaranya (recall tinggi terhadap kelas dropout).
-     - Sementara dari `586` mahasiswa yang lulus, model berhasil mengklasifikasikan 522 dengan benar.
+          - Dari `322` mahasiswa yang benar-benar dropout, model berhasil mendeteksi 291 di antaranya (recall tinggi terhadap kelas dropout).
+          - Sementara dari `586` mahasiswa yang lulus, model berhasil mengklasifikasikan 522 dengan benar.
 
-     Hal ini menunjukkan bahwa model memiliki kemampuan deteksi yang baik terhadap kasus dropout, yang sangat penting untuk intervensi dini oleh pihak institusi.
+  Hal ini menunjukkan bahwa model memiliki kemampuan deteksi yang baik terhadap kasus dropout, yang sangat penting untuk intervensi dini oleh pihak institusi.
 
 ### Langkah-Langkah Menjalankan Model
 
