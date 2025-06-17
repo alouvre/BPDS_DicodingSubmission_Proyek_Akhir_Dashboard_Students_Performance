@@ -186,7 +186,7 @@ Setelah proses pelatihan (training) model selesai, model tersebut disimpan/di-ex
    Setelah semua library siap, Anda bisa menjalankan skrip prediksi dengan mengetik:
 
    ```python
-   python app.py
+   streamlit run app.py
    ```
 
    Penjelasan:
