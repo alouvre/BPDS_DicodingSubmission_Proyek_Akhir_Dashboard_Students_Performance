@@ -123,37 +123,37 @@ Berikut beberapa rekomendasi strategis berdasarkan hasil analisis dan prediksi:
 
 1. Implementasi Sistem Deteksi Dini Dropout
 
-- Gunakan model prediktif yang telah dikembangkan untuk mengidentifikasi mahasiswa berisiko tinggi sejak awal perkuliahan.
-- Integrasikan sistem ini ke dalam dashboard akademik atau sistem informasi mahasiswa.
+   - Gunakan model prediktif yang telah dikembangkan untuk mengidentifikasi mahasiswa berisiko tinggi sejak awal perkuliahan.
+   - Integrasikan sistem ini ke dalam dashboard akademik atau sistem informasi mahasiswa.
 
 2. Pendampingan Akademik untuk Mahasiswa Berisiko
 
-- Prioritaskan mahasiswa dengan capaian akademik rendah di semester pertama untuk mendapatkan pendampingan intensif.
-- Sediakan program remedial dan bimbingan studi secara berkala.
+   - Prioritaskan mahasiswa dengan capaian akademik rendah di semester pertama untuk mendapatkan pendampingan intensif.
+   - Sediakan program remedial dan bimbingan studi secara berkala.
 
 3. Penguatan Dukungan Finansial
 
-- Evaluasi dan perluas jangkauan beasiswa untuk kelompok mahasiswa berisiko tinggi dropout karena faktor ekonomi.
-- Buat mekanisme monitoring bagi mahasiswa dengan tunggakan pembayaran kuliah.
+   - Evaluasi dan perluas jangkauan beasiswa untuk kelompok mahasiswa berisiko tinggi dropout karena faktor ekonomi.
+   - Buat mekanisme monitoring bagi mahasiswa dengan tunggakan pembayaran kuliah.
 
 4. Monitoring Performa Berdasarkan Program Studi
 
-- Lakukan evaluasi berkala pada program studi dengan tingkat dropout tinggi.
-- Koordinasikan antara pihak akademik dan manajemen program studi untuk meninjau kurikulum, beban studi, dan metode pengajaran.
+   - Lakukan evaluasi berkala pada program studi dengan tingkat dropout tinggi.
+   - Koordinasikan antara pihak akademik dan manajemen program studi untuk meninjau kurikulum, beban studi, dan metode pengajaran.
 
 5. Optimalkan Dashboard untuk Pengambilan Keputusan
 
-- Gunakan dashboard Metabase sebagai alat monitoring rutin oleh dosen wali, manajer akademik, dan bagian kemahasiswaan.
-- Latih pengguna dalam membaca insight dan mengimplementasikan strategi berbasis visualisasi data.
+   - Gunakan dashboard Metabase sebagai alat monitoring rutin oleh dosen wali, manajer akademik, dan bagian kemahasiswaan.
+   - Latih pengguna dalam membaca insight dan mengimplementasikan strategi berbasis visualisasi data.
 
 6. Intervensi Sosial dan Kesejahteraan Mahasiswa
 
-- Sediakan layanan konseling, sesi motivasi, serta forum komunikasi dua arah dengan mahasiswa.
-- Dorong kegiatan sosial dan komunitas yang dapat meningkatkan keterlibatan mahasiswa di lingkungan kampus.
+   - Sediakan layanan konseling, sesi motivasi, serta forum komunikasi dua arah dengan mahasiswa.
+   - Dorong kegiatan sosial dan komunitas yang dapat meningkatkan keterlibatan mahasiswa di lingkungan kampus.
 
 7. Evaluasi Semester Awal Sebagai Indikator Kunci
 
-- Fokuskan perhatian pada performa mahasiswa dalam dua semester pertama sebagai indikator dropout paling kuat.
-- Terapkan sistem pelaporan dini bagi mahasiswa yang tidak memenuhi syarat akademik minimum.
+   - Fokuskan perhatian pada performa mahasiswa dalam dua semester pertama sebagai indikator dropout paling kuat.
+   - Terapkan sistem pelaporan dini bagi mahasiswa yang tidak memenuhi syarat akademik minimum.
 
 Dengan menerapkan strategi-strategi ini, Jaya Jaya Institut dapat secara signifikan menekan angka dropout, meningkatkan keberhasilan studi, dan menciptakan lingkungan akademik yang lebih inklusif, adaptif, dan berkelanjutan.
