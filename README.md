@@ -2,6 +2,8 @@
 
 Proyek ini bertujuan untuk menyelesaikan permasalahan tingginya angka dropout di sebuah institusi pendidikan bernama Jaya Jaya Institut dengan pendekatan berbasis data. Solusi yang dikembangkan mencakup eksplorasi dan analisis data, visualisasi melalui dashboard interaktif menggunakan Metabase, serta pembangunan sistem prediksi dropout berbasis machine learning menggunakan Streamlit. Prototype sistem ini juga telah disiapkan untuk di-deploy melalui Streamlit Community Cloud agar dapat dijalankan di environment cloud dan diakses secara remote.
 
+[Video presentasi klik disini](https://drive.google.com/drive/folders/1hfHebrK4XbpF6knjkn9j3K5LELnbHVux?usp=sharing)
+
 <br>
 
 ## 📁 Struktur Direktori

@@ -2,9 +2,45 @@
 
 ## Business Understanding
 
+Jaya Jaya Institut merupakan salah satu institusi pendidikan tinggi yang telah berdiri sejak tahun 2000. Selama lebih dari dua dekade, institusi ini telah meluluskan banyak mahasiswa berprestasi dan memiliki reputasi akademik yang sangat baik.
+
+Namun demikian, seiring waktu, Jaya Jaya Institut menghadapi tantangan serius terkait tingginya angka mahasiswa yang tidak menyelesaikan studinya (dropout). Fenomena dropout ini tidak hanya berdampak pada citra institusi, tetapi juga berpengaruh pada efektivitas sistem pembelajaran, akreditasi program studi, dan efisiensi operasional.
+
+Sebagai bentuk respons terhadap permasalahan tersebut, pihak manajemen institusi ingin mengambil langkah strategis untuk mengidentifikasi mahasiswa yang berisiko dropout sejak dini agar dapat diberikan intervensi dan bimbingan yang tepat sasaran.
+
 ### Permasalahan Bisnis
 
+Bagaimana Jaya Jaya Institut dapat mengidentifikasi secara dini mahasiswa yang berisiko tinggi melakukan dropout, guna meningkatkan retensi dan kualitas pendidikan di lingkungan institusi?
+
+Pertanyaan utama ini dapat diuraikan menjadi beberapa sub-permasalahan:
+- Apa saja faktor utama yang berkontribusi terhadap keputusan mahasiswa untuk berhenti studi?
+- Bagaimana karakteristik sosial, ekonomi, akademik, dan demografis memengaruhi kemungkinan mahasiswa melakukan dropout?
+- Strategi pemantauan apa yang dapat digunakan untuk membantu pihak institusi dalam mengidentifikasi tren dropout secara visual dan informatif?
+- Bagaimana model machine learning dapat digunakan untuk memprediksi risiko dropout mahasiswa secara akurat dan praktis?
+
 ### Cakupan Proyek
+
+Untuk menjawab permasalahan di atas, proyek ini memiliki dua fokus utama:
+
+- **📊 Pembuatan Business Dashboard**
+
+  Dashboard ini akan menampilkan visualisasi faktor-faktor penting yang berhubungan dengan performa dan retensi mahasiswa. Visualisasi akan mencakup metrik seperti:
+    - Distribusi nilai akademik,
+    - Tingkat kehadiran,
+    - Status pembayaran uang kuliah,
+    - Kebutuhan khusus dalam pendidikan,
+    - dan berbagai indikator sosio-demografis lainnya.
+
+  Dashboard ini bertujuan untuk membantu pengelola akademik dan manajemen dalam mengawasi dan memahami kondisi mahasiswa secara lebih menyeluruh.
+
+- **🤖 Pengembangan Model Machine Learning**
+
+  Model prediktif akan dikembangkan menggunakan pendekatan machine learning untuk memprediksi kemungkinan mahasiswa mengalami dropout. Model ini bertujuan untuk:
+    - Mengidentifikasi mahasiswa berisiko tinggi secara otomatis
+    - Mendukung pengambilan keputusan dalam pemberian intervensi dini (bimbingan atau konseling),
+    - Mengurangi tingkat dropout dalam jangka panjang.
+
+  Prototipe dari sistem prediksi ini akan dikembangkan menggunakan Streamlit agar dapat digunakan langsung oleh pihak institusi, serta di-deploy pada Streamlit Community Cloud agar dapat diakses secara remote.
 
 <br>
 
