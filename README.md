@@ -196,3 +196,5 @@ Setelah proses pelatihan (training) model selesai, model tersebut disimpan/di-ex
      - Memuat model prediksi yang sudah disimpan.
      - Melakukan prediksi apakah mahasiswa tersebut berisiko dropout atau tidak.
      - Menampilkan atau menyimpan hasil prediksi.
+
+Atau buka [tautan](https://dashboardstudentsperformance.streamlit.app/) untuk membuka prototype yang sudah dijalankan pada streamlit community.
