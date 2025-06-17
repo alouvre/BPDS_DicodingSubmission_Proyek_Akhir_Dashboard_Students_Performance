@@ -154,8 +154,43 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa
 📌 Interpretasi:
 
 Model menunjukkan performa yang kuat dan seimbang dalam mengklasifikasikan mahasiswa yang dropout maupun yang lulus (graduate).
-- Dari 322 mahasiswa yang benar-benar dropout, model berhasil mendeteksi 291 di antaranya (recall tinggi terhadap kelas dropout).
-- Sementara dari 586 mahasiswa yang lulus, model berhasil mengklasifikasikan 522 dengan benar.
+- Dari `322` mahasiswa yang benar-benar dropout, model berhasil mendeteksi 291 di antaranya (recall tinggi terhadap kelas dropout).
+- Sementara dari `586` mahasiswa yang lulus, model berhasil mengklasifikasikan 522 dengan benar.
 
 Hal ini menunjukkan bahwa model memiliki kemampuan deteksi yang baik terhadap kasus dropout, yang sangat penting untuk intervensi dini oleh pihak institusi.
+
+### Langkah-Langkah Menjalankan Model
+
+Setelah proses pelatihan (training) model selesai, model tersebut disimpan/di-export dalam bentuk file menggunakan library joblib (format penyimpanan untuk model machine learning). Untuk menggunakan model tersebut pada data mahasiswa baru, disediakan sebuah file Python bernama app.py yang bisa dijalankan untuk menghasilkan prediksi.
+
+1. Install Required Libraries
+
+   Sebelum menjalankan app.py, pastikan semua library yang dibutuhkan sudah terinstal. Jalankan perintah berikut di terminal atau command prompt:
+
+   ```python
+   pip install pandas scikit-learn joblib
+   ```
+
+   Penjelasan:
+
+   - `pandas`: Untuk membaca dan mengelola data karyawan dalam bentuk tabel (dataframe).
+   - `scikit-learn`: Library utama yang digunakan untuk membangun dan menjalankan model machine learning.
+   - `joblib`: Untuk memuat (load) model yang telah disimpan sebelumnya.
+
+2. Run the Prediction Script
+
+   Setelah semua library siap, Anda bisa menjalankan skrip prediksi dengan mengetik:
+
+   ```python
+   python app.py
+   ```
+
+   Penjelasan:
+
+   - app.py adalah skrip Python yang berisi logika untuk:
+     - Membaca data mahasiswa baru.
+     - Memuat model prediksi yang sudah disimpan.
+     - Melakukan prediksi apakah mahasiswa tersebut berisiko dropout atau tidak.
+     - Menampilkan atau menyimpan hasil prediksi.
+
 
