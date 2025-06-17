@@ -2,7 +2,6 @@
 
 Proyek ini bertujuan untuk menyelesaikan permasalahan tingginya angka dropout di sebuah institusi pendidikan bernama Jaya Jaya Institut dengan pendekatan berbasis data. Solusi yang dikembangkan mencakup eksplorasi dan analisis data, visualisasi melalui dashboard interaktif menggunakan Metabase, serta pembangunan sistem prediksi dropout berbasis machine learning menggunakan Streamlit. Prototype sistem ini juga telah disiapkan untuk di-deploy melalui Streamlit Community Cloud agar dapat dijalankan di environment cloud dan diakses secara remote.
 
-
 <br>
 
 ## 📁 Struktur Direktori
@@ -104,5 +103,39 @@ root123
   ```
 
 <br>
+
+## 🧠 Machine Learning Modeling
+
+Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa memiliki kemungkinan untuk mengalami dropout dari institusi pendidikan Jaya Jaya Institut. Proses pemodelan difokuskan pada identifikasi pola-pola dalam data akademik, sosial, dan ekonomi yang dapat mengindikasikan risiko dropout. Dengan model ini, pihak akademik dapat mengambil langkah preventif secara proaktif untuk meningkatkan retensi mahasiswa.
+
+
+### ✅ `Pendekatan yang Digunakan:`
+
+- LazyClassifier (Baseline Model Selection)
+
+  Digunakan untuk membandingkan berbagai algoritma klasifikasi secara cepat dan efisien. Dari hasil perbandingan, algoritma XGBClassifier dipilih karena menghasilkan akurasi tertinggi sebesar 0.90, menjadikannya kandidat utama untuk pelatihan lanjutan.
+
+- XGBoost Classifier (Model Utama)
+
+  Merupakan algoritma klasifikasi yang cepat dan efisien untuk data tabular. Digunakan sebagai model utama untuk memprediksi risiko dropout, baik sebelum maupun sesudah proses seleksi fitur, guna mengukur pengaruh penyederhanaan fitur terhadap performa model.
+
+- Heatmap Korelasi dan Feature Importance
+
+  Digunakan untuk mengidentifikasi fitur-fitur yang paling berpengaruh terhadap keputusan model. Fitur penting yang terdeteksi antara lain:
+
+  ```
+  MothersQualification, FathersQualification, MothersOccupation, FathersOccupation,
+  CurricularUnits1stSemCredited, CurricularUnits1stSemEnrolled, CurricularUnits1stSemEvaluations, CurricularUnits1stSemApproved, CurricularUnits1stSemGrade, CurricularUnits2ndSemCredited,
+  CurricularUnits2ndSemEnrolled, CurricularUnits2ndSemEvaluations,
+  CurricularUnits2ndSemApproved, CurricularUnits2ndSemGrade
+  ```
+
+- Lingkungan Pengembangan: Jupyter Notebook
+
+  Model dikembangkan dalam Jupyter Notebook menggunakan library Python seperti pandas untuk manipulasi data dan scikit-learn untuk preprocessing, pelatihan, dan evaluasi model.
+
+- Evaluasi Model: Accuracy, Precision, Recall, F1-score, dan Confusion Matrix
+
+  Metrik ini memberikan gambaran menyeluruh tentang performa model dalam memprediksi status mahasiswa (dropout atau graduate).
 
 
