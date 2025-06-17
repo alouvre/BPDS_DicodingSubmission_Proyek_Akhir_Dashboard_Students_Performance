@@ -138,9 +138,9 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa
 
   Metrik ini memberikan gambaran menyeluruh tentang performa model dalam memprediksi status mahasiswa (dropout atau graduate).
 
-### 📊 `Kinerja Model:`
+### 📉 `Kinerja Model:`
 
-- 📉 Evaluasi Model XGBoost:
+- Evaluasi Model XGBoost:
 
   - Accuracy = 0.90, Precision = 0.90, Recall = 0.90, F1 Score = 0.89
   - Confusion Matrix:
@@ -159,7 +159,9 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa
 
   Hal ini menunjukkan bahwa model memiliki kemampuan deteksi yang baik terhadap kasus dropout, yang sangat penting untuk intervensi dini oleh pihak institusi.
 
-### Langkah-Langkah Menjalankan Model
+<br>
+
+## 🌐 Langkah-Langkah Menjalankan Model
 
 Setelah proses pelatihan (training) model selesai, model tersebut disimpan/di-export dalam bentuk file menggunakan library joblib (format penyimpanan untuk model machine learning). Untuk menggunakan model tersebut pada data mahasiswa baru, disediakan sebuah file Python bernama app.py yang bisa dijalankan untuk menghasilkan prediksi.
 
