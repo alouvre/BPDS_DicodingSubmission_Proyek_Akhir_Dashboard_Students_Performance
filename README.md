@@ -56,7 +56,6 @@ submission
 
 Dataset yang digunakan berasal dari Universitas fiktif Jaya Jaya Institut, yang tersedia di repositori berikut:
 
-
 🔗 [Dataset Jaya Jaya Institut](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/main/students_performance/data.csv).
 
 ### Install requirements
@@ -87,7 +86,7 @@ Untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
 Anda bisa login ke dashboard Metabase menggunakan:
 
 ```bash
-alifiamustika02@gmail.com
+alifiamustika03@gmail.com
 root@123
 ```
 
