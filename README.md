@@ -166,8 +166,9 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa
 ## 🌐 Langkah-Langkah Menjalankan Sistem Machine Learning
 
 Setelah proses pelatihan (training) model selesai, model disimpan dalam format `.joblib` menggunakan library `joblib`. Untuk menggunakan model tersebut dalam proses prediksi data mahasiswa baru, tersedia sebuah file bernama `app.py` yang dapat dijalankan menggunakan Streamlit.
-1. Membuat dan Mengaktifkan Virtual Environment (venv)
 
+1. Membuat dan Mengaktifkan Virtual Environment (venv)
+  
   Agar proses pengembangan tetap stabil dan terisolasi dari sistem utama, disarankan untuk menggunakan virtual environment.
 
   `📦 Membuat virtual environment`
