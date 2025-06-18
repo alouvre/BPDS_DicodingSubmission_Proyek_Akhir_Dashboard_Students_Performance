@@ -77,9 +77,11 @@ docker run -d -p 3000:3000 --name metabase \
 ```
 
 Setelah container berjalan, buka browser dan akses:
+
 ```
 🌐 http://localhost:3000/setup
 ```
+
 Untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
 
 Anda bisa login ke dashboard Metabase menggunakan:
@@ -156,8 +158,8 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa
 
   Model menunjukkan performa yang kuat dan seimbang dalam mengklasifikasikan mahasiswa yang dropout maupun yang lulus (graduate).
 
-     - Dari `322` mahasiswa yang benar-benar dropout, model berhasil mendeteksi 291 di antaranya (recall tinggi terhadap kelas dropout).
-     - Sementara dari `586` mahasiswa yang lulus, model berhasil mengklasifikasikan 522 dengan benar.
+  - Dari `322` mahasiswa yang benar-benar dropout, model berhasil mendeteksi 291 di antaranya (recall tinggi terhadap kelas dropout).
+  - Sementara dari `586` mahasiswa yang lulus, model berhasil mengklasifikasikan 522 dengan benar.
 
   Hal ini menunjukkan bahwa model memiliki kemampuan deteksi yang baik terhadap kasus dropout, yang sangat penting untuk intervensi dini oleh pihak institusi.
 
@@ -168,23 +170,25 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa
 Setelah proses pelatihan (training) model selesai, model disimpan dalam format `.joblib` menggunakan library `joblib`. Untuk menggunakan model tersebut dalam proses prediksi data mahasiswa baru, tersedia sebuah file bernama `app.py` yang dapat dijalankan menggunakan Streamlit.
 
 1. Membuat dan Mengaktifkan Virtual Environment (venv)
-  
-  Agar proses pengembangan tetap stabil dan terisolasi dari sistem utama, disarankan untuk menggunakan virtual environment.
 
-  `📦 Membuat virtual environment`
-  ```bash
-  python -m venv venv
-  ```
+   Agar proses pengembangan tetap stabil dan terisolasi dari sistem utama, disarankan untuk menggunakan virtual environment.
 
-  `▶️ Mengaktifkan environment`
-  - Windows:
-    ```bash
-    venv\Scripts\activate
-    ```
-  - macOS/Linux:
-    ```bash
-    source venv/bin/activate
-    ```
+   `📦 Membuat virtual environment`
+
+   ```bash
+   python -m venv venv
+   ```
+
+   `▶️ Mengaktifkan environment`
+
+   - Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - macOS/Linux:
+     ```bash
+     source venv/bin/activate
+     ```
 
 2. Menginstal Library yang Dibutuhkan
 
@@ -219,8 +223,8 @@ Setelah proses pelatihan (training) model selesai, model disimpan dalam format `
 
 4. Alternatif: Jalankan Online
 
-  Jika Anda tidak ingin menjalankan secara lokal, Anda dapat mengakses aplikasi yang sudah dideploy di Streamlit Community Cloud melalui tautan berikut:
+   Jika Anda tidak ingin menjalankan secara lokal, Anda dapat mengakses aplikasi yang sudah dideploy di Streamlit Community Cloud melalui tautan berikut:
 
-  ```
-  🔗 https://dashboardstudentsperformance.streamlit.app/
-  ```
+   ```
+   🔗 https://dashboardstudentsperformance.streamlit.app/
+   ```
