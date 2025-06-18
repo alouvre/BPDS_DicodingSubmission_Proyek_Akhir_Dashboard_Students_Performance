@@ -56,40 +56,39 @@ submission
 
 Dataset yang digunakan berasal dari Universitas fiktif Jaya Jaya Institut, yang tersedia di repositori berikut:
 
-- 🔗 [Dataset Jaya Jaya Institut](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/main/students_performance/data.csv).
+    - 🔗 [Dataset Jaya Jaya Institut](https://raw.githubusercontent.com/dicodingacademy/dicoding_dataset/main/students_performance/data.csv).
 
 ### Install requirements
 
 Pastikan semua library yang dibutuhkan telah terinstall:
 
-```python
-pip install -r requirements.txt
-```
+    ```python
+    pip install -r requirements.txt
+    ```
 
 ### Setup metabase
 
 Untuk menjalankan Metabase secara lokal menggunakan Docker:
 
-```python
-docker run -d -p 3000:3000 --name metabase \
-  -v "$(pwd)/metabase.db.mv.db:/metabase.db/metabase.db.mv.db" \
-  metabase/metabase
-```
+    ```python
+    docker run -d -p 3000:3000 --name metabase \
+      -v "$(pwd)/metabase.db.mv.db:/metabase.db/metabase.db.mv.db" \
+      metabase/metabase
+    ```
 
 Setelah container berjalan, buka browser dan akses:
 
-```
-🌐 http://localhost:3000/setup
-```
+    ```
+    🌐 http://localhost:3000/setup
+    ```
 
 Untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
-
 Anda bisa login ke dashboard Metabase menggunakan:
 
-```
-alifiamustika02@gmail.com
-root@123
-```
+    ```
+    alifiamustika02@gmail.com
+    root@123
+    ```
 
 ### Setup supabase
 
