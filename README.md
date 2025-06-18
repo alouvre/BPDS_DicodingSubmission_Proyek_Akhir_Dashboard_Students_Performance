@@ -195,15 +195,17 @@ Setelah proses pelatihan (training) model selesai, model disimpan dalam format `
    Setelah virtual environment aktif, jalankan perintah berikut untuk menginstal dependensi:
 
    ```bash
-   pip install pandas scikit-learn joblib streamlit
+   pip install pandas scikit-learn joblib streamlit xgboost numpy
    ```
 
    Penjelasan:
 
    - `pandas`: Untuk membaca dan memproses data mahasiswa dalam format tabel.
+   - `numpy`: Digunakan untuk manipulasi array dan struktur data numerik, termasuk dalam proses prediksi dan preprocessing.
    - `scikit-learn`: Library utama untuk machine learning (pelatihan dan prediksi).
    - `joblib`: Untuk memuat model yang telah disimpan sebelumnya.
    - `streamlit`: Untuk menjalankan aplikasi web prediksi secara interaktif.
+   - `xgboost`: Digunakan untuk memuat dan menjalankan model XGBoost (model utama yang digunakan).
 
 3. Menjalankan Aplikasi Prediksi
 
