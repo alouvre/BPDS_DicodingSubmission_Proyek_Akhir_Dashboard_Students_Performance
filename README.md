@@ -165,7 +165,7 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa
 
 <br>
 
-## 🌐 Langkah-Langkah Menjalankan Sistem Machine Learning
+## 🌐 Langkah-Langkah Menjalankan Prototype Sistem Machine Learning
 
 Setelah proses pelatihan (training) model selesai, model disimpan dalam format `.joblib` menggunakan library `joblib`. Untuk menggunakan model tersebut dalam proses prediksi data mahasiswa baru, tersedia sebuah file bernama `app.py` yang dapat dijalankan menggunakan Streamlit.
 
