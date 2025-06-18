@@ -52,7 +52,7 @@ submission
 
 <br>
 
-## 📊 Persiapan Business dashboarding dengan Metabase
+## 📊 Persiapan Business Dashboarding dengan Metabase
 
 Dataset yang digunakan berasal dari Universitas fiktif Jaya Jaya Institut, yang tersedia di repositori berikut:
 
@@ -85,7 +85,7 @@ Untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
 Anda bisa login ke dashboard Metabase menggunakan:
 
 ```
-root@mail.com
+alifiamustika02@gmail.com
 root@123
 ```
 
@@ -163,38 +163,63 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang mahasiswa
 
 <br>
 
-## 🌐 Langkah-Langkah Menjalankan Model
+## 🌐 Langkah-Langkah Menjalankan Sistem Machine Learning
 
-Setelah proses pelatihan (training) model selesai, model tersebut disimpan/di-export dalam bentuk file menggunakan library joblib (format penyimpanan untuk model machine learning). Untuk menggunakan model tersebut pada data mahasiswa baru, disediakan sebuah file Python bernama app.py yang bisa dijalankan untuk menghasilkan prediksi.
+Setelah proses pelatihan (training) model selesai, model disimpan dalam format `.joblib` menggunakan library `joblib`. Untuk menggunakan model tersebut dalam proses prediksi data mahasiswa baru, tersedia sebuah file bernama `app.py` yang dapat dijalankan menggunakan Streamlit.
+1. Membuat dan Mengaktifkan Virtual Environment (venv)
 
-1. Install Required Libraries
+  Agar proses pengembangan tetap stabil dan terisolasi dari sistem utama, disarankan untuk menggunakan virtual environment.
 
-   Sebelum menjalankan app.py, pastikan semua library yang dibutuhkan sudah terinstal. Jalankan perintah berikut di terminal atau command prompt:
+  `📦 Membuat virtual environment`
+  ```bash
+  python -m venv venv
+  ```
 
-   ```python
-   pip install pandas scikit-learn joblib
+  `▶️ Mengaktifkan environment`
+  - Windows:
+    ```bash
+    venv\Scripts\activate
+    ```
+  - macOS/Linux:
+    ```bash
+    source venv/bin/activate
+    ```
+
+2. Menginstal Library yang Dibutuhkan
+
+   Setelah virtual environment aktif, jalankan perintah berikut untuk menginstal dependensi:
+
+   ```bash
+   pip install pandas scikit-learn joblib streamlit
    ```
 
    Penjelasan:
 
-   - `pandas`: Untuk membaca dan mengelola data karyawan dalam bentuk tabel (dataframe).
-   - `scikit-learn`: Library utama yang digunakan untuk membangun dan menjalankan model machine learning.
-   - `joblib`: Untuk memuat (load) model yang telah disimpan sebelumnya.
+   - `pandas`: Untuk membaca dan memproses data mahasiswa dalam format tabel.
+   - `scikit-learn`: Library utama untuk machine learning (pelatihan dan prediksi).
+   - `joblib`: Untuk memuat model yang telah disimpan sebelumnya.
+   - `streamlit`: Untuk menjalankan aplikasi web prediksi secara interaktif.
 
-2. Run the Prediction Script
+3. Menjalankan Aplikasi Prediksi
 
-   Setelah semua library siap, Anda bisa menjalankan skrip prediksi dengan mengetik:
+   Jalankan aplikasi menggunakan perintah berikut:
 
-   ```python
+   ```bash
    streamlit run app.py
    ```
 
    Penjelasan:
 
-   - app.py adalah skrip Python yang berisi logika untuk:
+   - `app.py` adalah skrip Python yang berisi logika untuk:
      - Membaca data mahasiswa baru.
      - Memuat model prediksi yang sudah disimpan.
      - Melakukan prediksi apakah mahasiswa tersebut berisiko dropout atau tidak.
      - Menampilkan atau menyimpan hasil prediksi.
 
-Atau buka [tautan](https://dashboardstudentsperformance.streamlit.app/) untuk membuka prototype yang sudah dijalankan pada streamlit community.
+4. Alternatif: Jalankan Online
+
+  Jika Anda tidak ingin menjalankan secara lokal, Anda dapat mengakses aplikasi yang sudah dideploy di Streamlit Community Cloud melalui tautan berikut:
+
+  ```
+  🔗 https://dashboardstudentsperformance.streamlit.app/
+  ```
